@@ -1,6 +1,18 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.bg-image {
+	width: 100vw;
+	height: 100vh;
+	background: url('./bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
@@ -9,13 +21,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position:  relative;
+	background-color: #00538F;
 }
 
 #mapid {
 	height: 85vh;
-	width: 50vw;
-	border: 2px solid orange;
+	width: 80vw;
+	border: 2px solid black;
 }
 
 #grow {
@@ -23,18 +35,4 @@
 	top:  0;
 	right: 0;
 	z-index: 10;
-}
-
-@media (max-width: 950px) {
-  #mapid {
-    width: 80vw;
-    height: 80vh;
-  }
-}
-
-@media (max-width: 600px) {
-  #mapid {
-    width: 90vw;
-    height: 70vh;
-  }
 }

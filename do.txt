@@ -1,4 +1,3 @@
-terminar de conectar calles con geojson
 guardar calles en formato json
 traerlo en el js
 pintarlo en el mapa con una funcion y/o con un bucle
