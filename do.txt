@@ -1,6 +1,0 @@
-guardar calles en formato json
-traerlo en el js
-pintarlo en el mapa con una funcion y/o con un bucle
-añadirle boludeces alrededor
-fin
-keep develop
